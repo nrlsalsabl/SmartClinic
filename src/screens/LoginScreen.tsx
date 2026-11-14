@@ -28,7 +28,7 @@ type Props = NativeStackScreenProps<
 >;
 
 export default function LoginScreen({ navigation }: Props) {
-    const [email, setEmail] = useState('wayan@gmail.com');
+    const [email, setEmail] = useState('nurul@gmail.com');
     const [password, setPassword] = useState('123456');
 
     const { setUser } = useApp();
@@ -49,7 +49,7 @@ export default function LoginScreen({ navigation }: Props) {
             navigation.replace('Admin');
         } else {
             setUser({
-                name: 'Wayan Putra',
+                name: 'Nurul Salsabila',
                 email,
                 role: 'patient',
             });
@@ -107,7 +107,7 @@ export default function LoginScreen({ navigation }: Props) {
                     <Text style={styles.demoTitle}>AKUN DEMO</Text>
 
                     <Text style={styles.demoText}>
-                        Pasien: wayan@gmail.com
+                        Pasien: nurul@gmail.com
                     </Text>
                     <Text style={styles.demoText}>
                         Admin: admin@smartclinic.com

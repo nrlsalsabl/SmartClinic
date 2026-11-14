@@ -3,8 +3,8 @@ import { Patient } from '../types';
 export const patients: Patient[] = [
     {
         id: 1,
-        name: 'Wayan Putra',
-        email: 'wayan@gmail.com',
+        name: 'Nurul Salsabila',
+        email: 'nurul@gmail.com',
         phone: '081234567890',
         status: 'Aktif',
     },
